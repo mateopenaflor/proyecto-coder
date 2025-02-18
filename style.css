@@ -4,7 +4,7 @@
 header nav{
     background-color: rgba(12, 110, 117, 0.795);
     z-index: 10;
-    position: sticky;
+    width: 100%;
 }
 
 body{
@@ -15,6 +15,10 @@ body{
     position: relative;
 }
 
+main{
+    margin-left: 2vh;
+}
+
 .centrar-carousel{
     display: grid;
     place-items: center;
@@ -23,29 +27,32 @@ body{
 }
 
 img{
-    max-height: 60vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
 }
 
 /*Para todas las imagenes de las 3 webs de animales*/
-.row img{
-    padding-top: 2vh;
-    padding-left: 2vh;
+.imagenesIzquierda{
     float: left;
 }
 
-/**/
+/*Para abracar la informacion de los animales y colocarlo a la derecha*/
 .contentAnimales{
     margin-right: 1vh;
     margin-top: 2vh;
     padding-left: 1vh;
     float: right;
-    background-color: rgba(12, 110, 117, 0.795);
+    border: 5px solid rgba(12, 110, 117, 0.795);
 }
 
 .acordeon{
     margin-top: 2vh;
     float: right;
     margin-right: 1vh;
+}
+
+.acordeon button{
+    background-color: rgba(12, 110, 117, 0.795);
 }
 
 h5{
@@ -58,14 +65,18 @@ p{
     font-size: large;
 }
 
+ol{
+    font-family: "Barlow Condensed", serif;
+    font-size: large;
+}
 
 footer{
     display: grid;
     background-color: rgba(12, 110, 117, 0.795);
     z-index: 10;
-    bottom: 0;
+    margin-bottom: 0%;
     margin-top: 2vh;
-    height: 10vh;
+    height: 100%;
     width: 100%;
     text-align: center;
 }
