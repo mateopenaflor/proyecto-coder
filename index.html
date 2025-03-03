@@ -7,7 +7,7 @@
     <title>Reserva natural</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
 </head>
 <!--NavBar-->
 <header>
@@ -19,12 +19,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="flora.html">Flora destacada</a>
+                        <a class="nav-link" href="pages/flora.html">Flora destacada</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -32,13 +32,13 @@
                             Animales destacados
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="guacamayo.html">Guacamayo de Spix</a></li>
+                            <li><a class="dropdown-item" href="pages/guacamayo.html">Guacamayo de Spix</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="panda-rojo.html">Panda rojo</a></li>
+                            <li><a class="dropdown-item" href="pages/panda-rojo.html">Panda rojo</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="carpincho.html">Carpincho</a></li>
+                            <li><a class="dropdown-item" href="pages/carpincho.html">Carpincho</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -72,72 +72,91 @@
             </button>
         </div>
     </section>
-<!--seccion de cards (Bienvenido, actividades, animales y plantas)-->
-<main class="margin-left margin-right">
-    <section>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Bienvenido/a</h5>
-                        <p class="card-text">¡Bienvenidos a la Reserva Natural Coder! Un espacio único
-                            donde la naturaleza se conserva en su máxima expresión, y donde cada rincón es un refugio
-                            para especies en peligro de extinción. Te invitamos a conocer este paraíso natural y a ser
-                            parte de nuestra misión de protección y conservación.
-                            <br> <br>
-                            La Reserva Natural Coder es un santuario ecológico dedicado a preservar
-                            la biodiversidad de nuestra región. En este vasto espacio protegido, cada especie animal y
-                            vegetal tiene un papel crucial para el equilibrio del ecosistema. Con su amplia variedad de
-                            flora y fauna, ofrecemos a los visitantes una experiencia única de contacto directo con la
-                            naturaleza.
-                        </p>
+    <!--seccion de cards (Bienvenido, actividades, animales y plantas)-->
+    <main class="margin-left margin-right">
+        <section>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bienvenido/a</h5>
+                            <p class="card-text">¡Bienvenidos a la Reserva Natural Coder! Un espacio único
+                                donde la naturaleza se conserva en su máxima expresión, y donde cada rincón es un
+                                refugio
+                                para especies en peligro de extinción. Te invitamos a conocer este paraíso natural y a
+                                ser
+                                parte de nuestra misión de protección y conservación.
+                            </p>
+                            <p>
+                                La Reserva Natural Coder es un santuario ecológico dedicado a preservar
+                                la biodiversidad de nuestra región. En este vasto espacio protegido, cada especie animal
+                                y
+                                vegetal tiene un papel crucial para el equilibrio del ecosistema. Con su amplia variedad
+                                de
+                                flora y fauna, ofrecemos a los visitantes una experiencia única de contacto directo con
+                                la
+                                naturaleza.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Actividades y Experiencias</h5>
-                        <p class="card-text">Senderismo y Caminatas Guiadas: Vive la experiencia de recorrer nuestros
-                            senderos naturales en compañía de guías expertos que te contarán la historia de la reserva y
-                            te mostrarán los animales y plantas más emblemáticos. Las caminatas guiadas son una
-                            excelente manera de conocer la biodiversidad de la región y disfrutar de la belleza de la
-                            naturaleza.
-                            <br> <br>
-                            Observación de Fauna: Si eres un amante de la fauna, no puedes perderte nuestras
-                            actividades de observación de aves y animales. Desde el amanecer hasta el atardecer, tendrás
-                            la oportunidad de ver de cerca especies como el Guacamayo de Spix y el Panda Rojo en su
-                            hábitat natural, mientras disfrutas de la tranquilidad que solo un entorno tan puro puede
-                            ofrecer.
-                            <br> <br>
-                            Talleres Educativos: Para los más pequeños y para los apasionados de la naturaleza,
-                            ofrecemos talleres educativos sobre conservación, reciclaje y el impacto del cambio
-                            climático. Estos talleres son una forma divertida y educativa de aprender cómo todos podemos
-                            contribuir al cuidado del medio ambiente.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Actividades y Experiencias</h5>
+                            <p class="card-text">Senderismo y Caminatas Guiadas: Vive la experiencia de recorrer
+                                nuestros
+                                senderos naturales en compañía de guías expertos que te contarán la historia de la
+                                reserva y
+                                te mostrarán los animales y plantas más emblemáticos. Las caminatas guiadas son una
+                                excelente manera de conocer la biodiversidad de la región y disfrutar de la belleza de
+                                la
+                                naturaleza.
+                            </p>
+                            <p>
+                                Observación de Fauna: Si eres un amante de la fauna, no puedes perderte nuestras
+                                actividades de observación de aves y animales. Desde el amanecer hasta el atardecer,
+                                tendrás
+                                la oportunidad de ver de cerca especies como el Guacamayo de Spix y el Panda Rojo en su
+                                hábitat natural, mientras disfrutas de la tranquilidad que solo un entorno tan puro
+                                puede
+                                ofrecer.
+                            </p>
+                            <p>
+                                Talleres Educativos: Para los más pequeños y para los apasionados de la naturaleza,
+                                ofrecemos talleres educativos sobre conservación, reciclaje y el impacto del cambio
+                                climático. Estos talleres son una forma divertida y educativa de aprender cómo todos
+                                podemos
+                                contribuir al cuidado del medio ambiente.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Conoce los Animales y Plantas</h5>
-                        <p class="card-text">Dentro de nuestra reserva habitan algunas de las especies más
-                            fascinantes del planeta. Entre ellas, podrás encontrar al majestuoso Guacamayo de Spix, un
-                            ave rara y colorida que se encuentra en peligro de extinción. También tenemos al carismático
-                            Panda Rojo, conocido por su pelaje rojizo y su comportamiento travieso. Además, el
-                            Carpincho, el roedor más grande del mundo, es una de las especies más populares entre
-                            nuestros visitantes.
-                            <br> <br>
-                            La flora de la reserva es tan rica como su fauna. Entre los árboles más destacados
-                            se encuentran diversas especies de maderas duras, como el cedro y la caoba, que proporcionan
-                            un hábitat esencial para muchos animales. Las plantas medicinales, como el guaraná y el
-                            açaí, crecen en abundancia y son utilizadas por las comunidades locales para diversos
-                            fines.
-                        </p>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Conoce los Animales y Plantas</h5>
+                            <p class="card-text">Dentro de nuestra reserva habitan algunas de las especies más
+                                fascinantes del planeta. Entre ellas, podrás encontrar al majestuoso Guacamayo de Spix,
+                                un
+                                ave rara y colorida que se encuentra en peligro de extinción. También tenemos al
+                                carismático
+                                Panda Rojo, conocido por su pelaje rojizo y su comportamiento travieso. Además, el
+                                Carpincho, el roedor más grande del mundo, es una de las especies más populares entre
+                                nuestros visitantes.
+                            </p>
+                            <p>
+                                La flora de la reserva es tan rica como su fauna. Entre los árboles más destacados
+                                se encuentran diversas especies de maderas duras, como el cedro y la caoba, que
+                                proporcionan
+                                un hábitat esencial para muchos animales. Las plantas medicinales, como el guaraná y el
+                                açaí, crecen en abundancia y son utilizadas por las comunidades locales para diversos
+                                fines.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-    </section>
+        </section>
 </body>
 </main>
 <footer>

@@ -1,0 +1,50 @@
+header{
+    background-color: $primary-color;
+    z-index: 100;
+    width: 100%;
+    position: sticky
+    top 0;
+    margin-bottom: 1vh;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgba(161, 165, 160, 0.795);
+    position: relative;
+    main{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+footer{
+    background-color: $primary-color;
+    z-index: 100;
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    p a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+h5{
+    font-family: "Roboto", serif;
+    text-align: center;
+}
+
+p, ol{
+    font-family: "Barlow Condensed", serif;
+    font-size: large;
+}
+
+.centrar-carousel{
+    place-items: center;
+    margin-bottom: 2vh;
+    margin-top: 0,5vh;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva natural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+</head>
+
+<!--NavBar-->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand">Reserva natural Coder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="flora.html">Flora destacada</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Animales destacados
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="guacamayo.html">Guacamayo de Spix</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="panda-rojo.html">Panda rojo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="carpincho.html">Carpincho</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <Main class="margin-left">
+        <!--Imagenes a la izquierda-->
+        <section class="row imagenesIzquierda col-12 col-ms-12 col-lg-4">
+            <img src="../imagenes/pandaRojoPage1.jpg" class="img-fluid" alt="Panda rojo">
+            <img src="../imagenes/pandaRojoPage2.jpg" class="img-fluid" alt="Panda rojo">
+            <img src="../imagenes/pandaRojoPage3.jpg" class="img-fluid" alt="Panda rojo">
+        </section>
+
+        <!--Acordeon a la derecha-->
+        <section class="col-12 col-ms-12 col-lg-8 acordeon">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h5>Alimentación</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>El Panda Rojo es un herbívoro, aunque su dieta es variada. Su principal fuente de
+                                alimento son los brotes y hojas de bambú, que constituyen hasta el 95% de su ingesta
+                                diaria. Sin embargo, también consume frutas, bayas, raíces, corteza, insectos y pequeños
+                                mamíferos, lo que lo convierte en un animal omnívoro en ocasiones. A pesar de ser más
+                                pequeño que su pariente más famoso, el Panda Gigante, el Panda Rojo tiene un sistema
+                                digestivo que no puede procesar eficientemente el bambú, lo que lo obliga a consumir
+                                grandes cantidades de este material fibroso. Su metabolismo es bajo, lo que le permite
+                                sobrevivir con una dieta baja en calorías, pero debe comer constantemente para
+                                satisfacer sus necesidades energéticas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <h5>Distribución y Hábitat</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>El Panda Rojo se encuentra principalmente en las regiones montañosas del Himalaya, el
+                                sureste de China, Nepal, India, Bután y Birmania. Prefiere los bosques templados, a
+                                menudo a gran altura, entre los 2.200 y los 4.800 metros sobre el nivel del mar. Su
+                                hábitat está dominado por bosques densos de coníferas y caducifolias, donde hay
+                                abundancia de bambú, su fuente principal de alimento. Sin embargo, debido a la
+                                deforestación y la expansión humana, su hábitat natural ha sido fragmentado y reducido,
+                                lo que ha afectado su población y lo ha puesto en peligro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <h5>Conservación y Amenazas</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>El Panda Rojo está clasificado como "en peligro" por la Unión Internacional para la
+                                Conservación de la Naturaleza (UICN) debido a la pérdida de hábitat, la caza furtiva y
+                                el comercio ilegal. La destrucción de los bosques de bambú, el cambio climático y la
+                                fragmentación de su hábitat contribuyen a la disminución de su población. Aunque existen
+                                esfuerzos de conservación, como la creación de reservas naturales y programas de cría en
+                                cautiverio, el Panda Rojo sigue enfrentando serias amenazas. La protección de su hábitat
+                                y el control de la caza furtiva son cruciales para garantizar su supervivencia a largo
+                                plazo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Texto debajo del acordeon a la derecha-->
+        <section class="card col-12 col-ms-12 col-lg-8 contentAnimales">
+            <div class="card-body">
+                <p>El Panda Rojo (Ailurus fulgens) es un mamífero nocturno y solitario, conocido por su pelaje rojizo y
+                    su cola anillada, que lo hace fácilmente reconocible. A pesar de su nombre, no está estrechamente
+                    relacionado con el Panda Gigante, sino que pertenece a una familia distinta llamada Ailuridae. Su
+                    comportamiento tranquilo y su aspecto adorable lo han convertido en una especie emblemática, pero, a
+                    pesar de su popularidad, el Panda Rojo enfrenta numerosos desafíos en su vida salvaje.
+                </p>
+                <p>
+                    Habitante de las zonas montañosas de Asia, el Panda Rojo se ha visto afectado por la reducción de su
+                    hábitat debido a la tala de bosques, lo que ha aislado a las poblaciones y dificultado su
+                    supervivencia. Además, el cambio climático amenaza las áreas donde crece el bambú, su principal
+                    alimento. Aunque es un animal adaptado a su entorno, el Panda Rojo depende de una frágil cadena
+                    ecológica para sobrevivir.
+                </p>
+                <p>
+                    Hoy en día, la conservación del Panda Rojo está siendo impulsada por organizaciones internacionales
+                    que buscan proteger sus hábitats naturales, controlar el comercio ilegal y garantizar su
+                    supervivencia. Gracias a estos esfuerzos, se ha logrado estabilizar en algunas áreas, pero aún queda
+                    mucho por hacer para garantizar que esta especie única siga existiendo en la naturaleza. La historia
+                    del Panda Rojo resalta la importancia de la conservación y el equilibrio en los ecosistemas de
+                    montaña.
+                </p>
+            </div>
+        </section>
+        <section class="card col-12 col-ms-12 col-lg-8 contentAnimales">
+            <div class="card-body">
+                <p>El panda rojo es una especie vulnerable que necesita de nuestro respeto y cuidado para su
+                    conservación. Si tienes la suerte de ver uno dentro de la reserva, sigue estas recomendaciones:</p>
+                <ol>
+                    <li><b>Mantén la distancia:</b> Observa sin acercarte demasiado. Son animales reservados y pueden
+                        sentirse amenazados si te acercas demasiado.
+                    </li>
+                    <li><b>No los alimentes:</b> Su dieta es específica y cualquier alimento ajeno a su alimentación
+                        natural puede ser dañino para su salud.</li>
+                    <li><b>Evita hacer ruido:</b> Son sensibles a los sonidos fuertes, los cuales pueden causarles
+                        estrés y alterar su comportamiento. Habla en voz baja y respeta la tranquilidad del entorno.
+                    </li>
+                    <li><b>No intentes tocarlos ni perseguirlos:</b> Aunque sean adorables, es esencial no interferir
+                        con su comportamiento natural.</li>
+                    <li><b>Respeta los senderos y áreas designadas:</b> Esto protege su hábitat y minimiza el impacto
+                        humano en su ecosistema.</li>
+                </ol>
+            </div>
+        </section>
+    </Main>
+</body>
+
+<footer>
+    <p>2025 Reserva Natural Coder. Todos los derechos reservados.</p>
+    <p>Ubicación: Rincón del sauce, 70001 Artilleros, Departamento de Colonia</p>
+    <p>Email: <a href="mailto:contacto@reserva.com">coder@reserva.com</a></p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>

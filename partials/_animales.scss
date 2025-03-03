@@ -1,0 +1,32 @@
+.bordeCaracteristico{
+    border: 5px solid $primary-color;
+}
+
+/*Para todas las imagenes de las 3 webs de animales*/
+.imagenesIzquierda{
+    float: left;
+    img{
+        padding-bottom: 1vh;
+    }
+}
+
+.acordeon{
+    margin-top: 2vh;
+    float: right;
+    button{
+        background-color: $primary-color;
+    }
+}
+
+/*Para abracar la informacion debajo del acordeon en las webs de los animales y colocarlo a la derecha*/
+.contentAnimales{
+    margin-top: 2vh;
+    padding-left: 1vh;
+    float: right;
+    @extend .bordeCaracteristico;
+}
+
+/* Para que todas las cards tenga el borde con el color caracteristico de la reserva */
+div .card{
+    @extend .bordeCaracteristico;
+}
