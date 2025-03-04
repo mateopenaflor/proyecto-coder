@@ -1,0 +1,20 @@
+@media (min-width: 801px){
+    /* Esto es porque las imagenes se me estiraban mucho en desktop*/
+    .imagenesIzquierda img{
+        padding-top: 2vh;
+        min-height: 280px;
+        max-height: 350px;
+    }
+    //colocado en este media porque en celulares y tablets no queda bien
+    .imagenesIzquierda img:hover{
+    transform: scale(1.5);
+    z-index: 1000;
+    transition: 0.8s;
+}
+}
+
+@media (max-width:800px) {
+    .animate__animated {
+        animation: none !important; /* Desactiva Animate.css en celulares */
+    }
+}

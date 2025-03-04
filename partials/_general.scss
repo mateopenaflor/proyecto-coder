@@ -14,8 +14,8 @@ body{
     background-color: rgba(161, 165, 160, 0.795);
     position: relative;
     main{
-        padding-left: 2%;
-        padding-right: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
@@ -48,3 +48,9 @@ p, ol{
     margin-bottom: 2vh;
     margin-top: 0,5vh;
 }
+
+/* Para la animacion de la informacion de inicio */
+.animate__animated.animate__bounceInLeft{animation-duration: 2s;}
+.animate__animated.animate__bounceInUp{animation-duration: 2s;}
+.animate__animated.animate__bounceInRight{animation-duration: 2s;}
+

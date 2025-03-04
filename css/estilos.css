@@ -16,8 +16,8 @@ body {
   position: relative;
 }
 body main {
-  padding-left: 2%;
-  padding-right: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 footer {
@@ -50,6 +50,19 @@ p, ol {
   margin-top: 0, 5vh;
 }
 
+/* Para la animacion de la informacion de inicio */
+.animate__animated.animate__bounceInLeft {
+  animation-duration: 2s;
+}
+
+.animate__animated.animate__bounceInUp {
+  animation-duration: 2s;
+}
+
+.animate__animated.animate__bounceInRight {
+  animation-duration: 2s;
+}
+
 .bordeCaracteristico, div .card, .contentAnimales {
   border: 5px solid rgba(12, 110, 117, 0.795);
 }
@@ -59,7 +72,7 @@ p, ol {
   float: left;
 }
 .imagenesIzquierda img {
-  padding-bottom: 1vh;
+  margin-bottom: 1vh;
 }
 
 .acordeon {
@@ -78,12 +91,22 @@ p, ol {
 }
 
 /* Para que todas las cards tenga el borde con el color caracteristico de la reserva */
-/* Este media es porque las imagenes se me estiraban mucho en desktop*/
-@media (min-width: 800px) {
+@media (min-width: 801px) {
+  /* Esto es porque las imagenes se me estiraban mucho en desktop*/
   .imagenesIzquierda img {
     padding-top: 2vh;
     min-height: 280px;
     max-height: 350px;
+  }
+  .imagenesIzquierda img:hover {
+    transform: scale(1.5);
+    z-index: 1000;
+    transition: 0.8s;
+  }
+}
+@media (max-width: 800px) {
+  .animate__animated {
+    animation: none !important; /* Desactiva Animate.css en celulares */
   }
 }
 
