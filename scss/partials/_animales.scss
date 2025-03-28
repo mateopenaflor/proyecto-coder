@@ -1,5 +1,7 @@
+@use "general";
+
 .bordeCaracteristico{
-    border: 5px solid $primary-color;
+    border: 5px solid general.$primary-color;
 }
 
 /*Para todas las imagenes de las 3 webs de animales*/
@@ -14,7 +16,7 @@
     margin-top: 2vh;
     float: right;
     button{
-        background-color: $primary-color;
+        background-color: general.$primary-color;
     }
 }
 

@@ -1,3 +1,5 @@
+$primary-color:rgba(12, 110, 117, 0.795);
+
 header{
     background-color: $primary-color;
     z-index: 100;
@@ -5,6 +7,18 @@ header{
     position: sticky
     top 0;
     margin-bottom: 1vh;
+}
+
+//para ocultar los H1 pero sin afectar su impacto en el SEO
+.hidden-h1 {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
 }
 
 body{

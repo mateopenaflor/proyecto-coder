@@ -8,6 +8,17 @@ header {
   margin-bottom: 1vh;
 }
 
+.hidden-h1 {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
 body {
   display: grid;
   min-height: 100vh;
@@ -99,7 +110,7 @@ p, ol {
     max-height: 350px;
   }
   .imagenesIzquierda img:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
     z-index: 1000;
     transition: 0.8s;
   }
